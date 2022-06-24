@@ -21,4 +21,9 @@ section {
 
 .bottom {
   width: 100%;
+  align-self: flex-end;
+
+  p {
+    font-size: .75rem;
+  }
 }

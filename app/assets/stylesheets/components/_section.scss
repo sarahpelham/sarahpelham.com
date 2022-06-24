@@ -1,0 +1,29 @@
+section {
+  margin-bottom: 4rem;
+  display: block;
+}
+
+.space-bw {
+  justify-content: space-between;
+}
+
+.inner-section {
+  margin: 0 5rem 1rem 0;
+}
+
+.top {
+  width: 100%;
+
+  p {
+      margin-bottom: .01rem;
+    }
+}
+
+.bottom {
+  width: 100%;
+  align-self: flex-end;
+
+  p {
+    font-size: .75rem;
+  }
+}

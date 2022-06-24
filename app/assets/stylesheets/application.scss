@@ -11,3 +11,30 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+
+main {
+  padding: 1.5rem;
+  min-height: 100vh;
+}
+
+h1 {
+  letter-spacing: .01rem;
+}
+
+h5 {
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex {
+  display: flex;
+}

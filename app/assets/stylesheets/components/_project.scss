@@ -6,9 +6,6 @@
   .text {
     cursor: pointer;
     transition: color 0.1s ease;
-    &:visited {
-        color: $purple;
-      }
     &:hover {
       color: $blue;
     }

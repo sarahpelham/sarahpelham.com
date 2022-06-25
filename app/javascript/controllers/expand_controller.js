@@ -7,6 +7,6 @@ export default class extends Controller {
   }
 
   expand() {
-    console.log(event);
+    this.element;
   }
 }

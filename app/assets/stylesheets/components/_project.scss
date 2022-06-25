@@ -2,4 +2,18 @@
   padding: 0.5rem 0;
   position: relative;
   border-bottom: 1px solid;
+
+  .text {
+    cursor: pointer;
+    transition: color 0.1s ease;
+    &:visited {
+        color: $purple;
+      }
+    &:hover {
+      color: $blue;
+    }
+    &:active {
+      color: $red;
+    }
+  }
 }

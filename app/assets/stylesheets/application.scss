@@ -29,6 +29,17 @@ h5 {
 a {
   text-decoration: none;
   color: $black;
+  cursor: pointer;
+    transition: color 0.1s ease;
+    &:visited {
+        color: $purple;
+      }
+    &:hover {
+      color: $blue;
+    }
+    &:active {
+      color: $red;
+    }
 }
 
 .wrap {

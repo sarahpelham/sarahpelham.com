@@ -21,7 +21,7 @@
         <div>
           <div><p>Full Stack Web Development</p></div>
           <div><p>Product Management</p></div>
-          <div><p>UX and UI Design</p></div>
+          <div><p>UX UI Design</p></div>
           <div><p>Branding, Content and SEO Marketing</p></div>
         </div>
       </div>
@@ -40,10 +40,12 @@
     <section>
       <div>
         <h5>Projects:</h5>
-        <div class="project" data-controller="expand" data-action="click->expand#expand">
-          <div class="text wrap flex space-bw">
+        <div class="project" data-controller="reveal" data-reveal-hidden-class="hidden">
+          <div class="text wrap flex space-bw" data-action="click->reveal#toggle">
             <div>Scented Web App</div>
             <div>2022</div>
+          </div>
+          <div data-reveal-target="item" class="hidden">This is some words about a project.
           </div>
         </div>
         <div class="project">

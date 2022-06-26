@@ -2,4 +2,24 @@
   padding: 0.5rem 0;
   position: relative;
   border-bottom: 1px solid;
+
+  .text {
+    cursor: pointer;
+    transition: color 0.1s ease;
+    &:hover {
+      color: $blue;
+    }
+    &:active {
+      color: $red;
+    }
+  }
+
+  .content {
+    display: block;
+    padding: 1rem 0;
+
+    p {
+      margin-bottom: .8rem;
+    }
+  }
 }

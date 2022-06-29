@@ -1,6 +1,6 @@
 This is my online CV, a Ruby on Rails website hosted on Heroku. 
 
-As I recent graduate of Le Wagon's Full Stack Web Development bootcamp, I generated the site with a Le Wagon template: lewagon/rails-templates](https://github.com/lewagon/rails-templates
+As a recent graduate of Le Wagon's Full Stack Web Development bootcamp, I generated the site with a Le Wagon template: lewagon/rails-templates](https://github.com/lewagon/rails-templates
 
 ## Getting Started
 ### Setup

@@ -42,29 +42,19 @@
       <div>
         <h5>Projects:</h5>
         <div class="project">
-          <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#scented">
-            <div>Scented Web App</div>
-            <div>2022</div>
-          </div>
-          <div id="scented" class="collapse">
-            <div class="content">
-              <p>I'm making a web app for discovering fragrances for fun. The app finds patterns based on fragrance data and a user's fragrance ratings, in order to recommend fragrances to try.</p>
-              <p>Tech: Ruby on Rails, Heroku, JavaScript</p>
-            </div>
-          </div>
-        </div>
-        <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#learnest">
             <div>Learnest Web App</div>
             <div>2022</div>
           </div>
           <div id="learnest" class="collapse">
             <div class="content">
+              <%= image_tag("Learnest.jpg")%>
               <p>Three teammates and I built a question and answer web app for post-secondary students and teachers, <%= link_to "Learnest", "https://learnest-app.herokuapp.com/", target: :_blank, class: "project-links"%>, as a final project in Le Wagon's web development bootcamp.</p>
               <p>My main backend contributions included web scraping and then storing, parsing and importing the JSON seed file.</p>
               <p>My main frontend contributions included overall brand and UX/UI design, the homepage, question and answer card design and responsiveness.</p>
               <p>Tech: Ruby on Rails, Heroku, PostgreSQL, Javascript, StimulusJS, HTML, SCSS, Bootstrap, Devise Authentication, Pundit Authorization, Nokogiri Parsing</p>
               <p class="project-links"><%= link_to "Learnest", "https://learnest-app.herokuapp.com/", target: :_blank %></p>
+              <p class="project-links"><%= link_to "Demo Presentation", "https://www.youtube.com/watch?v=EtgwZE8tK1M&t=1031s", target: :_blank %></p>
               <p class="project-links"><%= link_to "GitHub", "https://github.com/ConnorSand/Learnest", target: :_blank %></p>
             </div>
           </div>
@@ -76,8 +66,9 @@
           </div>
           <div id="standupFinder" class="collapse">
             <div class="content">
-              <p>Three teammates and I built a two-sided marketplace web app for booking and listing stand-up comedy shows, <%= link_to "Standup Finder", "https://comedy-app.herokuapp.com/", target: :_blank, class: "project-links"%>, as a project in Le Wagon's web development bootcamp.</p>
-              <p>My main backend contributions included setting up routes, models and controllers, skeleton index view and the geocoded map feature.</p>
+              <%= image_tag("StandupFinder.jpg")%>
+              <p>Three teammates and I built a two-sided marketplace web app for booking and listing stand-up comedy shows, <%= link_to "Standup Finder", "https://comedy-app.herokuapp.com/", target: :_blank, class: "project-links"%>, as a project in Le Wagon's web development bootcamp. The idea came from a stand-up comedian friend of mine, <%= link_to "Jordan Gray", "https://www.jordanthomasgray.com/", target: :_blank, class: "project-links"%></p>
+              <p>My main backend contributions included setting up routes, models and controllers, the skeleton index view and the geocoded map feature.</p>
               <p>My main frontend contributions included overall brand and UX/UI design, the homepage and index card design.</p>
               <p>Tech: Ruby on Rails, Heroku, PostgreSQL, Javascript, StimulusJS, HTML, SCSS, Bootstrap, Devise Authentication, Geocoder, Mapbox API</p>
               <p class="project-links"><%= link_to "Standup Finder", "https://comedy-app.herokuapp.com/", target: :_blank %></p>
@@ -92,7 +83,7 @@
           </div>
           <div id="brandConsulting" class="collapse">
             <div class="content">
-              <p>I'm advising on brand and content guidelines, B2B and B2C marketing tone of voice for two clients.</p>
+              <p>I'm advising on brand, content and tone-of-voice guidelines for B2B and B2C marketing materials for a client.</p>
             </div>
           </div>
         </div>
@@ -103,7 +94,7 @@
           </div>
           <div id="seoProduct" class="collapse">
             <div class="content">
-              <p>I'm directing a technical SEO content project, working with development and managing a team of freelance copywriters.</p>
+              <p>I'm directing a technical SEO content project for a client, which involves working with developers and managing a team of freelance copywriters.</p>
             </div>
           </div>
         </div>
@@ -134,7 +125,7 @@
   </div>
 
   <div class="bottom">
-      <p>Last Updated: June 27, 2022</p>
+      <p>Last Updated: June 29, 2022</p>
   </div>
 
 </div>

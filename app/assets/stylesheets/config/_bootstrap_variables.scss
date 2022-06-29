@@ -9,8 +9,33 @@ $headings-font-family:    $headers-font;
 $body-bg:                 $white;
 $font-size-base: .85rem;
 
+:root {
+  --bs-body-bg:     #fff;
+  --bs-body-color:  #000;
+  a {
+    &:hover {
+      color: $gray;
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .dark {
+    --bs-body-bg: rgb(14, 14, 14);
+    --bs-body-color: #fff;
+    a {
+        &:hover {
+          color: $light-gray;
+        }
+      }
+     .project .text:hover {
+       color: $light-gray;
+     }
+  }
+}
+
 // Colors
-$body-color: $black;
+$color:      $black;
 $primary:    $blue;
 $success:    $green;
 $info:       $yellow;

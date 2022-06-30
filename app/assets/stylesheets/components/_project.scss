@@ -6,7 +6,7 @@
   .text {
     cursor: pointer;
     transition: color 0.1s ease;
-    &:hover {
+    &:hover, &:active, &:focus, &:focus-within, &:target, &:focus-visible {
       color: $gray;
     }
   }
@@ -26,4 +26,37 @@
     height: auto;
     padding-bottom: 1rem;
   }
+
+  .accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+    transform: scale(.7) !important;
+  }
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill-rule='evenodd' d='M0 8a1 1 0 0 1 1-1h14a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1z' clip-rule='evenodd'/%3e%3c/svg%3e");
+  }
+
+  // .accordion:before {
+  //   font-family: "Font Awesome 6 Free";
+  //   font-weight: 900;
+  //   content: "\f067";
+  //   // margin-left: 1rem;
+  //   display: inline-block;
+  //   font-style: normal;
+  //   font-variant: normal;
+  //   text-rendering: auto;
+  //   -webkit-font-smoothing: antialiased;
+  // }
+
+  // .accordion:after {
+  //   font-family: "Font Awesome 6 Free";
+  //   font-weight: 900;
+  //   content: "\f068";
+  //   margin-left: 1rem;
+  //   display: inline-block;
+  //   font-style: normal;
+  //   font-variant: normal;
+  //   text-rendering: auto;
+  //   -webkit-font-smoothing: antialiased;
+  // }
 }

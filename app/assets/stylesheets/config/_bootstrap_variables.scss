@@ -12,12 +12,10 @@ $font-size-base: .85rem;
 :root {
   --bs-body-bg:     #fff;
   --bs-body-color:  #000;
-  a {
-    &:hover {
+  a:hover, i:hover {
       color: $gray;
     }
   }
-}
 
 @media (prefers-color-scheme: dark) {
   .dark {

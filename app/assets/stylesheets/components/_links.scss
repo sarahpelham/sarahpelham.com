@@ -3,16 +3,17 @@ a {
   color: var(--bs-body-color);
   cursor: pointer;
   transition: color 0.1s ease;
-
-  &:hover {
-    color: $gray;
-  }
 }
 
 .social-links {
   text-align: right;
+  justify-content: end;
 }
 
 .project-links {
   text-decoration: underline;
+}
+
+i {
+  margin-left: 1rem;
 }

@@ -10,9 +10,16 @@
         <p>Melbourne, Australia</p>
       </div>
       <div>
-        <p class="social-links"><%= link_to "GITHUB", "https://github.com/sarahpelham", target: :_blank %>
-        <br>
-        <%= link_to "LINKEDIN", "https://www.linkedin.com/in/sarah-m-pelham/", target: :_blank %></p>
+        <div class="social-links flex wrap">
+          <%= link_to "https://github.com/sarahpelham", target: :_blank do %>
+            <p>GITHUB<i class="fab fa-brands fa-github"></i></p>
+          <% end %>
+        </div>
+        <div class="social-links flex wrap">
+          <%= link_to "https://www.linkedin.com/in/sarah-m-pelham/", target: :_blank, class: "social-links" do %>
+            <p>LINKEDIN<i class="fab fa-brands fa-linkedin"></i></p>
+          <% end %>
+        </div>
       </div>
     </section>
 
@@ -44,8 +51,8 @@
         <h5>Projects:</h5>
         <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#learnest">
-            <div>Learnest Web App</div>
-            <div>2022</div>
+            <div><p>Learnest Web App</p></div>
+            <div><p>2022<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="learnest" class="collapse">
             <div class="content">
@@ -63,7 +70,7 @@
         <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#standupFinder">
             <div>Standup Finder Web App</div>
-            <div>2022</div>
+            <div><p>2022<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="standupFinder" class="collapse">
             <div class="content">
@@ -80,7 +87,7 @@
         <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#brandConsulting">
             <div>Brand and Content Consulting</div>
-            <div>2022</div>
+            <div><p>2022<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="brandConsulting" class="collapse">
             <div class="content">
@@ -91,7 +98,7 @@
         <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#seoProduct">
             <div>SEO Product Management</div>
-            <div>2022</div>
+            <div><p>2022<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="seoProduct" class="collapse">
             <div class="content">
@@ -102,7 +109,7 @@
         <div class="project">
           <div class="text wrap flex space-bw" data-bs-toggle="collapse" data-bs-target="#digitalTransform">
             <div>Digital Transformation Consulting</div>
-            <div>2021</div>
+            <div><p>2021<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="digitalTransform" class="collapse">
             <div class="content">
@@ -113,7 +120,7 @@
         <div class="project">
           <div class="text wrap flex space-bw"  data-bs-toggle="collapse" data-bs-target="#seoConsult">
             <div>SEO Content Consulting</div>
-            <div>2021</div>
+            <div><p>2021<i class="fas fa-solid fa-plus"></i></p></div>
           </div>
           <div id="seoConsult" class="collapse">
             <div class="content">

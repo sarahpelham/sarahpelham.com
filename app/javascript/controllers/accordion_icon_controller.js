@@ -12,8 +12,4 @@ export default class extends Controller {
     this.iconTarget.classList.toggle("fa-minus");
     this.iconTarget.classList.toggle("fa-plus");
   }
-
-  // iconToggle() {
-  //   this.iconTarget.classList.toggleClass("fas fa-solid fa-minus")
-  // }
 }
